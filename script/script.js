@@ -12,7 +12,7 @@ function doLogin(event) {
    },
    body: JSON.stringify({
     "username": username,
-    "password": password
+    "password": psw
    })
   })
   .then(response => response.json())
